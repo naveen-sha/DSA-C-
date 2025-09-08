@@ -2,4 +2,4 @@
 int main(){
     printf("naveen");
     return 0; 
-}
+};
