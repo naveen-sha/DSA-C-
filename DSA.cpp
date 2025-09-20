@@ -35,7 +35,6 @@ int main(){
 // relationl opertors ..
 /*int a=7;
 int b=5;
-
 bool first =(a==b);
 cout<<first<<endl;
 bool second =(a>b);
