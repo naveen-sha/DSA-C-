@@ -47,3 +47,4 @@ bool fifth =(a>=b);
 cout<<fifth<<endl;*/
 // logical opertors &&,||,!.
 };
+
