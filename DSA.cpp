@@ -102,5 +102,33 @@ if(a>0){
     return 0;
 }*/
 //  loops in c++...................
+//  print 1to n no.
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        cout<<i<<" ";
+        i++;
+    }
+    
+}
+    */
+int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    int sum=0;
+   
+    while (i<=n)
+    {
+      if(n%2==0){
+         sum=sum+i;
+         i++;
+        }
+    }
+    cout<<"value of sum is:"<<sum <<endl;
+    
 
-
+   }
