@@ -1,12 +1,11 @@
  #include<iostream>
 using namespace std;
 /* int main(){
-    cout << "namaste duniya" <<endl;
-    
-};*/
+    cout << "namaste duniya" <<endl;  
+};
 
 int main(){
-   /* int a =123;
+int a =123;
     cout << a<<endl;
     char b='v';
     cout << b<<endl;
@@ -45,6 +44,63 @@ bool fourth =(a<=b);
 cout<<fourth<<endl;
 bool fifth =(a>=b);
 cout<<fifth<<endl;*/
-// logical opertors &&,||,!.
-};
+// logical opertors &&,||,!.*/
+// int main(){
+    //int n;
+   // cin>>n;
+    // cout<<"value of n is:"<<n <<endl;
+    // checking condition  if a is positive .
+   /* if(n>0){
+        cout<<"a is positive"<<endl;
+    }else{
+        cout<<"a is negative"<<endl;
+    };*/
+    /*int a,b;
+    cin >> a>>b;
+    
+    if(a>b){
+        cout<<"a is greater than b"<<endl;
+    }else{
+        cout<<"b is greater than a"<<endl;
+    }
+    in this we can aslo  add tap space in input.
+    a=cin.get();
+    cout<<"value of a is :"<<a <<endl;
+*/
+/*int a;
+cout<<"enter a value of a"<<endl;
+cin>>a;
+if(a>0){
+    cout<<"A is positive";
+
+}else if(a<0)
+    {
+        cout<<"A is negative "<<endl;
+
+    }else{
+        cout<<"A is zero"<<endl;
+    }
+};*/
+/*int main() {
+    char ch;
+    cout << "Enter a character: ";
+    cin >> ch;
+
+    if (ch >= 'a' && ch <= 'z') {
+        cout << "Lowercase" << endl;
+    } 
+    else if (ch >= 'A' && ch <= 'Z') {
+        cout << "Uppercase" << endl;
+    } 
+    else if (ch >= '0' && ch <= '9') {
+        cout << "Digit" << endl;
+    } 
+    else {
+        cout << "Other character" << endl;
+    }
+
+    return 0;
+}*/
+//  loops in c++...................
+
 
