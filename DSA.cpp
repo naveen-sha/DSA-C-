@@ -115,20 +115,42 @@ if(a>0){
     
 }
     */
-int main(){
-    int n;
+/* int main(){
+    int n; 
     cin>>n;
-    int i=1;
+    int i=2;
     int sum=0;
    
     while (i<=n)
     {
-      if(n%2==0){
+      if(n/2==0){
          sum=sum+i;
          i++;
         }
     }
     cout<<"value of sum is:"<<sum <<endl;
     
-
    }
+    */
+   /* int main(){
+    int n;
+   cin>>n;
+   int i=2;
+   while (i<n)
+   {
+    if(n%i==0){
+        cout<< "not prime "<<i<<endl;
+
+    }else{
+        cout<<"prime for"<<i<<endl; 
+    }
+    i++;
+   }*/
+//    create a square star pattern.
+int main(){
+
+}
+
+
+
+
