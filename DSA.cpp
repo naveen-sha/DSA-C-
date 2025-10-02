@@ -166,7 +166,7 @@ if(a>0){
     
 
 }*/
-int main(){
+/* int main(){
     int n;
     cin>>n;
     int i=1;
@@ -183,9 +183,9 @@ int main(){
         i++;
     
     }
-    
+}*/
 
-}
+
 
 
 
