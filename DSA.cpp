@@ -184,6 +184,13 @@ if(a>0){
     
     }
 }*/
+int main(){
+    int a;
+    a=1000;
+    printf("nikku");
+    
+    printf("naveen");
+}
 
 
 
