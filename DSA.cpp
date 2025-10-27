@@ -185,14 +185,24 @@ if(a>0){
     }
 }*/
 int main(){
-    int a;
-    a=1000;
-    printf("nikku");
+    int n ;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=i)
+        {
+            cout<<i;
+            j++;
+        }
+        cout<<endl;
+        i++;
+        
+    }
     
-    printf("naveen");
+
 }
-
-
 
 
 
