@@ -233,7 +233,7 @@ if(a>0){
         int j=1;
         while (j<=n)
         {
-              cout<<i;
+              cout<<j;
               j++;
         }
         cout<<endl;
@@ -242,8 +242,161 @@ if(a>0){
     
    }
     */
+ /*  int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=n)
+        {
+              cout<<n-j+1;
+              j++;
+        }
+        cout<<endl;
+        i++;
+    }
+    
+   }
+*/
+/*
+1 2 3 4 5 
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+*/
+   /*int main(){
+    int n ;
+    cin >>n;
+    int i=1;
+    int count =1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=n)
+        {
+
+            cout <<count<<" ";
+            count++;
+            j++;
+
+        }
+        cout<<endl;
+        i++;
+        
+    }
+    
+   }*/
+/*
+*
+**
+***
+****
+*****
+*/
+/* int main(){
+    int n;
+    cin >>n;
+    int i=1;
+    char s='*';
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=i)
+        {
+            cout <<s;
+            j++;
+        }
+        cout<<endl;
+        i++;
+        
+    }
+    
+}
+    */
+   /*
+1
+22
+333
+4444
+55555
+*/
+   /* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=i)
+        {
+            cout<<i;
+            j++;
+        }
+        cout <<endl;
+        i++;
+    }
+    
+   }
+    */
+   /*
+1      
+2 3     
+4 5 6
+7 8 9 10
+11 12 13 14 15
+16 17 18 19 20 21
+*/
+   /* int main(){
+    int n;
+    cin>>n;
+    int row=1;
+    int count =1;
+    while (row<=n)
+    {
+        int col=1;
+        while (col<=row)
+        {
+            cout<<count<<" ";
+            count++;
+            col++;
+        }
+        cout <<endl;
+        row++;
+
+    }
+    
+   }
+    */
+   /*
+1
+23
+345
+4567
+56789
+*/
+/*int main() {
+    int n;
+    cin >> n;
+
+    int i = 1, j;
+
+    while (i <= n) {
+
+        j = 1;
+        while (j <= i) {
+            cout << (i + j - 1);
+            j++;
+        }
+
+        cout << endl;
+        i++;
+    }
 
     
-   
+}
+    */
 
 
