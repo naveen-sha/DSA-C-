@@ -398,5 +398,283 @@ if(a>0){
     
 }
     */
+   /*
+1
+21
+321
+4321
+54321
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=i)
+        {
+            cout <<i-j+1;
+            j++;
+        }
+        cout <<endl;
+        i++;
+    }
+    
+}*/
+/* 
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int row=1;
+    while (row<=n)
+    {
+        int col=1;
+        while (col<=n)
+        {
+            char ch= 'A' + row-1;
+            cout<< ch;
+            col++;
+        }
+        cout<< endl;
+        row++;
+        
+    }
+    
+}
+    */
+   /*
+ABCDE   
+ABCDE   
+ABCDE
+ABCDE
+ABCDE
+*/
+  
+    /* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=n)
+        {
+            char ch='A'+j-1;
+            cout <<ch;
+            j++;
+            
+        }
+        cout<<endl;
+        i++;
+        
+    }
+    
+   }
+    */
+   /*
+ABCD
+EFGH
+IJKL
+MNOP
+*/
+
+   /* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    char start='A';
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=n)
+        {
+            cout<<start;
+            start++;
+            j++;
+            
+        }
+        cout<<endl;
+        i++;
+    }
+    
+   }
+    */
+   /*
+ABCDE
+BCDEF
+CDEFG
+DEFGH
+EFGHI
+*/
+// mine...
+   /* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        char ch='A'+i-1;
+        while (j<=n)
+        {
+            cout <<ch;
+            ch++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+
+        
+    }
+    
+   }*/
+//   baber....
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        char ch='A'+i+j-2;
+        while (j<=n)
+        {
+            cout <<ch;
+            ch++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+
+        
+    }
+    
+   }*/
+  /*
+A
+BB
+CCC
+DDDD
+EEEEE
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=i)
+        {
+            char ch='A'+i-1;
+            cout<<ch;
+            ch++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+    
+}
+*/ 
+/*
+A 
+B C
+C D E
+D E F G
+E F G H I
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        char ch='A'+i-1;
+        while (j<=i)
+        {
+            cout<<ch<<" ";
+            ch++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+    
+}
+    /*
+G 
+F G
+E F G
+D E F G
+C D E F G
+B C D E F G
+A B C D E F G
+    */
+   /* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        char ch='A'+n-i;
+        while (j<=i)
+        {
+            cout<< ch<<" ";
+            ch++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+
+
+    }
+    
+   }
+*/
+/*
+     *
+    **
+   ***
+  ****
+ *****
+******
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+    //  space print karo..
+    int space =n -i;
+    while (space)
+    {
+        cout <<" ";
+        space--;
+        
+    }
+    // star print karo..
+    int j=1;
+    while (j<=i)
+    {
+        cout<<"*";
+        j++;
+    }
+    cout <<endl;
+    i++;
+    }
+}
+    */
+   
 
 
