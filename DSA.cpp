@@ -736,5 +736,183 @@ int main(){
     
     }
 }
+*/
+/*
+1111111
+ 222222
+  33333
+   4444
+    555
+     66
+      7
+int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int space =1;
+        while (space<=i-1)
+        {
+            cout <<" ";
+            space++;
+            
+        }
+        // star print karo.
+        int j=1;
+        
+        while (j<=n-i+1)
+        {
+           cout <<i;
+           j++;
+    
+        }
+        // space print karo
+    cout <<endl;
+    i++;
+    
+    }
+}
+*/
+/*
+
+   1
+  22
+ 333
+4444
+*/
+/* int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+    //  space print karo..
+    int space =n -i;
+    while (space)
+    {
+        cout <<" ";
+        space--;
+        
+    }
+    // star print karo..
+    int j=1;
+    while (j<=i)
+    {
+        cout<<i;
+        j++;
+    }
+    cout <<endl;
+    i++;
+    }
+}
+    */ 
+/*
+12345
+ 2345
+  345
+   45
+    5
     */
-   
+   /*int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int space =1;
+        while (space<=i-1)
+        {
+            cout <<" ";
+            space++;
+            
+        }
+       
+        int j=1;
+        while (j<=n-i+1)
+        {
+           cout <<j+i-1;
+           j++;
+    
+        }
+        // space print karo
+    cout <<endl;
+    i++;
+    
+    }
+}
+    */
+   /*
+    1
+   23
+  345
+ 4567
+56789
+
+ int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+    //  space print karo..
+    int space =n -i;
+    while (space)
+    {
+        cout <<" ";
+        space--;
+        
+    }
+    // star print karo..
+    int j=1;
+    while (j<=i)
+    {
+        cout<<i+j-1;
+        j++;
+    }
+    cout <<endl;
+    i++;
+    }
+}
+    
+   */
+  /*
+    1
+   121
+  12321
+ 1234321
+123454321
+ */
+  int main(){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+    //  space print karo..
+    int space =n -i;
+    while (space)
+    {
+        cout <<" ";
+        space--;
+        
+    }
+    // star print karo..
+    int j=1;
+    while (j<=i)
+    {
+        cout<<j;
+       
+        j++;
+    }
+    int one=i-1;
+    while (one)
+    {
+        cout<<one;
+        one--;
+    }
+    
+    cout <<endl;
+    i++;
+    }
+}
