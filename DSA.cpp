@@ -882,7 +882,7 @@ int main(){
   12321
  1234321
 123454321
- */
+ 
   int main(){
     int n;
     cin>>n;
@@ -916,3 +916,29 @@ int main(){
     i++;
     }
 }
+    */
+   int main (){
+    int n;
+    cin>>n;
+    int i=1;
+    while (i<=n)
+    {
+        int j=1;
+        while (j<=n-i+1)
+        {
+            cout<<j;
+            j++;
+        }
+        int star=n-i;
+        while (star)
+        {
+            cout<<"*";
+            star++;
+        }
+        
+        cout<<endl;
+        i++;
+    }
+    
+
+   }
