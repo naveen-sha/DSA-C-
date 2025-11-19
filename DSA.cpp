@@ -929,11 +929,17 @@ int main(){
             cout<<j;
             j++;
         }
-        int star=n-i;
-        while (star)
+        int star=2;
+        while (star<=i)
         {
-            cout<<"*";
+            cout<<"*"<<"*";
             star++;
+        }
+        int k=n-i+1;
+        while (k)
+        {
+            cout<<k;
+            k--;
         }
         
         cout<<endl;
