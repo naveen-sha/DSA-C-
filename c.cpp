@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main (){
+/* int main (){
     
    cout << "*****" << endl;
    cout << "****" << endl;
@@ -9,4 +9,12 @@ int main (){
    cout << "**" << endl;
    cout << "*" << endl;
     return 0;
-   };
+   };*/
+   int main(){
+   cout << "*****" << endl;
+   cout << "   *" << endl;
+   cout << "  *" << endl;
+   cout << " *" << endl;
+   cout << "*****" << endl;
+    return 0;
+   }
